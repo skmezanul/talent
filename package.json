@@ -19,7 +19,9 @@
     "build": "rm -rf dist && babel ./src/server/server.js -d dist/ --watch src/",
     "update:data": "cp -a src/server/data/learners dist/server/data",
     "webpack:server": "webpack --debug --devtool=eval --watch",
-    "test": "NODE_ENV=test jest"
+    "test": "NODE_ENV=test jest",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -36,7 +38,8 @@
     "react-dom": "^16.0.0",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
-    "redux": "^3.7.2"
+    "redux": "^3.7.2",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "ajv": "^5.5.2",
@@ -61,5 +64,6 @@
   "engines": {
     "node": "8.1.2",
     "npm": "5.5.1"
-  }
+  },
+  "snyk": true
 }
