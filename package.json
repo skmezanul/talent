@@ -33,7 +33,7 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^7.2.6",
-    "axios": "^0.17.1",
+    "axios": "^1.6.4",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.2.1",
     "babel-loader": "^7.1.4",
