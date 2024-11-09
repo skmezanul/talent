@@ -60,7 +60,7 @@
     "redux-saga": "^0.16.0",
     "style-loader": "^0.19.1",
     "uglifyjs-webpack-plugin": "^1.2.4",
-    "webpack": "^3.11.0",
+    "webpack": "^4.0.0",
     "webpack-dev-server": "^2.11.2"
   },
   "devDependencies": {
